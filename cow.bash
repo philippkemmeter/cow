@@ -7,7 +7,7 @@ declare -r WORKDIR="$(dirname $(readlink $0 || echo $0))"
 # store_cowstate command and read it by simple sourcing this file.
 # See cow_store_cowstate for more.
 declare -r STATEFILE=~/.cowstate
-[[ ! -f $STATEFILE ]] && "declare -A COWSTATE" > $STATEFILE
+[[ ! -f $STATEFILE ]] && echo "declare -A COWSTATE" > $STATEFILE
 source $STATEFILE
 
 
