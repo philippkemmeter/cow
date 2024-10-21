@@ -7,7 +7,7 @@ function cow_action_help {
     (
         function extract_args_list {
             declare action=$1
-            echo "${ACTION_ARGS[$action]}"  | cut -d " " -f 1 | paste -sd ' '
+            echo "${ACTION_ARGS[$action]}"  | cut -d " " -f 1 | paste -sd ' ' -
         }
         function echo_action_shortcut_args_formatted {
             declare action=$1 shortcut=$2 args=$3
