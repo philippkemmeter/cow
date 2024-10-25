@@ -12,6 +12,11 @@ Oh, and generating a help screen is done automatically, too.
 
 You'll love cow.
 
+## macOS requirements
+
+Make sure to use the latest bash version, not the version 3.X that comes
+with macOS - ([brew bash](https://formulae.brew.sh/formula/bash) for example)
+
 ## Tutorial
 
 ### Tiny overview
